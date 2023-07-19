@@ -25,7 +25,7 @@ function Main() {
         <p>3 Years Experience</p>
       </div>
       <div>
-        <p className="technologies">Sass</p>
+        <h2 className="technologies">Sass</h2>
         <span className="pb-10">3 Years Experience</span>
       </div>
       <hr />
