@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/forntendmentor-15-single-page-dev-portfolio-react/static/css/main.f6321807.css",
-    "main.js": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.86ebc3c2.js",
+    "main.js": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.a47653d7.js",
     "static/js/787.87bc2b69.chunk.js": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/787.87bc2b69.chunk.js",
     "index.html": "/forntendmentor-15-single-page-dev-portfolio-react/index.html",
     "main.f6321807.css.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/css/main.f6321807.css.map",
-    "main.86ebc3c2.js.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.86ebc3c2.js.map",
+    "main.a47653d7.js.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.a47653d7.js.map",
     "787.87bc2b69.chunk.js.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/787.87bc2b69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6321807.css",
-    "static/js/main.86ebc3c2.js"
+    "static/js/main.a47653d7.js"
   ]
 }
