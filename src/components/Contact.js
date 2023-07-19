@@ -34,7 +34,7 @@ function Contact() {
       </p>
       <div className="flex justify-between w-40 mx-auto ">
         {/* -------------------------------GITHUB---------------------------------------- */}
-        <a type="button" href="https:/www.github.com" className="">
+        <a type="button" href="https://www.github.com" className="">
           <svg
             className="z-10"
             xmlns="http://www.w3.org/2000/svg"
