@@ -96,7 +96,7 @@ function Header() {
 
       <img
         className="top flex mx-auto max-w-[174px] z-0"
-        src="./assets/image-profile-mobile.webp"
+        src="assets/image-profile-mobile.webp"
         alt="profile-mobile"
       />
       <div className="pt-72">
