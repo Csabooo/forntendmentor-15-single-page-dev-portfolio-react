@@ -1,16 +1,22 @@
 {
   "files": {
     "main.css": "/forntendmentor-15-single-page-dev-portfolio-react/static/css/main.f6321807.css",
-    "main.js": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.9dd2ba10.js",
+    "main.js": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.88175105.js",
     "static/js/787.87bc2b69.chunk.js": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/787.87bc2b69.chunk.js",
+    "static/media/thumbnail-project-4-small.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-4-small.9b78cb7a8fc016ac6f3e.webp",
+    "static/media/thumbnail-project-6-small.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-6-small.6c5f5966e1c2eba5e0af.webp",
+    "static/media/thumbnail-project-1-small.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-1-small.49e25903f70dda5c2a93.webp",
     "static/media/image-profile-mobile.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/image-profile-mobile.a8f8432077fd643bed7b.webp",
+    "static/media/thumbnail-project-2-small.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-2-small.f36a7e52b84a6d8c7461.webp",
+    "static/media/thumbnail-project-3-small.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-3-small.951fb216eb344873b374.webp",
+    "static/media/thumbnail-project-5-small.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-5-small.e186a34a955415f41ecd.webp",
     "index.html": "/forntendmentor-15-single-page-dev-portfolio-react/index.html",
     "main.f6321807.css.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/css/main.f6321807.css.map",
-    "main.9dd2ba10.js.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.9dd2ba10.js.map",
+    "main.88175105.js.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.88175105.js.map",
     "787.87bc2b69.chunk.js.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/787.87bc2b69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6321807.css",
-    "static/js/main.9dd2ba10.js"
+    "static/js/main.88175105.js"
   ]
 }
