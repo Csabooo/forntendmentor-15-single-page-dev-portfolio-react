@@ -1,4 +1,5 @@
 import React from "react";
+import image_profile_mobile from "../assets/image-profile-mobile.webp";
 
 function Header() {
   return (
@@ -96,7 +97,8 @@ function Header() {
 
       <img
         className="top flex mx-auto max-w-[174px] z-0"
-        src="assets/image-profile-mobile.webp"
+        /* src={process.env.PUBLIC_URL + "/assets/image-profile-mobile.webp"} */
+        src={image_profile_mobile}
         alt="profile-mobile"
       />
       <div className="pt-72">

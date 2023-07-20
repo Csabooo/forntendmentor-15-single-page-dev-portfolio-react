@@ -1,4 +1,10 @@
 import React from "react";
+import project_1_small from "../assets/thumbnail-project-1-small.webp";
+import project_2_small from "../assets/thumbnail-project-2-small.webp";
+import project_3_small from "../assets/thumbnail-project-3-small.webp";
+import project_4_small from "../assets/thumbnail-project-4-small.webp";
+import project_5_small from "../assets/thumbnail-project-5-small.webp";
+import project_6_small from "../assets/thumbnail-project-6-small.webp";
 
 function Projects() {
   return (
@@ -28,7 +34,7 @@ function Projects() {
       <div className="flex flex-col justify-center">
         <img
           className="pb-6"
-          src="assets/thumbnail-project-1-small.webp"
+          src={project_1_small}
           alt="thumbnail-project-1-large"></img>
         <div className="flex flex-col text-left">
           <div>
@@ -57,7 +63,7 @@ function Projects() {
       <div className="flex flex-col justify-center">
         <img
           className="pb-6"
-          src="assets/thumbnail-project-2-small.webp"
+          src={project_2_small}
           alt="thumbnail-project-1-large"></img>
         <div className="flex flex-col text-left">
           <div>
@@ -86,7 +92,7 @@ function Projects() {
       <div className="flex flex-col justify-center">
         <img
           className="pb-6"
-          src="assets/thumbnail-project-3-small.webp"
+          src={project_3_small}
           alt="thumbnail-project-1-large"></img>
         <div className="flex flex-col text-left">
           <div>
@@ -116,7 +122,7 @@ function Projects() {
       <div className="flex flex-col justify-center">
         <img
           className="pb-6"
-          src="assets/thumbnail-project-4-small.webp"
+          src={project_4_small}
           alt="thumbnail-project-1-large"></img>
         <div className="flex flex-col text-left">
           <div>
@@ -146,7 +152,7 @@ function Projects() {
       <div className="flex flex-col justify-center">
         <img
           className="pb-6"
-          src="assets/thumbnail-project-5-small.webp"
+          src={project_5_small}
           alt="thumbnail-project-1-large"></img>
         <div className="flex flex-col text-left">
           <div>
@@ -176,7 +182,7 @@ function Projects() {
       <div className="flex flex-col justify-center">
         <img
           className="pb-6"
-          src="assets/thumbnail-project-5-small.webp"
+          src={project_6_small}
           alt="thumbnail-project-1-large"></img>
         <div className="flex flex-col text-left">
           <div>
