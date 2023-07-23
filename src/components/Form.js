@@ -13,10 +13,11 @@ function Form() {
 
     if (validRegex.test(enteredMail)) {
       const mailtoLink = `mailto:adam_keyes@adamkeyes.com?subject=Contact Inquiry&body=${encodeURIComponent(
-        enteredMessage
+        `My e-mail: ${enteredMail}\n\n${enteredMessage}`
       )}`;
+
       window.open(mailtoLink);
-      window.open("mailto:adam_keyes@adamkeyes.com?subject=Contact Inquiry");
+
       return;
     } else {
       setValid(false);
@@ -39,8 +40,8 @@ function Form() {
   };
 
   const messageHandler = (event) => {
-    const mail = event.target.value;
-    setMessage(mail);
+    const message = event.target.value;
+    setMessage(message);
   };
 
   const clearInput = (event) => {
@@ -79,7 +80,6 @@ function Form() {
             </p>
           </button>
         </div>
-        <hr />
       </form>
     </div>
   );

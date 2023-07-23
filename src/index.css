@@ -9,6 +9,9 @@
     @apply bg-black text-white;
   }
 
+  a {
+    @apply md:pr-6;
+  }
   a:hover p {
     @apply text-green;
   }
@@ -29,11 +32,11 @@
   }
 
   h1 {
-    @apply text-[40px] font-bold tracking-[-1.14px];
+    @apply text-[40px] md:text-[72px] font-bold tracking-[-1.14px] leading-none;
   }
 
   h2 {
-    @apply text-[32px] font-bold tracking-[-1px] text-white;
+    @apply text-[32px] font-bold tracking-[-1px] text-white md:text-heading_L;
   }
 
   h3 {
@@ -61,8 +64,9 @@
   }
 
   p {
-    @apply text-base text-grey pb-8;
+    @apply text-base md:text-body_L text-grey pb-8;
   }
+
   span {
     @apply text-grey block pb-6 tracking-[-1px];
   }
@@ -74,7 +78,7 @@
   }
 
   .technologies {
-    @apply text-[32px];
+    @apply text-[32px] md:text-heading_L;
   }
 
   .decoration_underline {

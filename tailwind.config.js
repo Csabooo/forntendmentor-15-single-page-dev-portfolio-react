@@ -30,14 +30,14 @@ module.exports = {
             fontWeight: "500",
           },
         ],
+        body_L: [
+          "18px",
+          {
+            lineHeight: "28px",
+            fontWeight: "500",
+          },
+        ],
       },
-      body_L: [
-        "18px",
-        {
-          lineHeight: "28px",
-          fontWeight: "500",
-        },
-      ],
     },
     colors: {
       black: "#151515",
