@@ -16,8 +16,9 @@ import project_6_large from "../assets/thumbnail-project-6-large.webp";
 function Projects() {
   return (
     <div className="relative">
+      <hr className="md:hidden block" />
       <svg
-        className="absolute -top-16 -right-[360px]"
+        className="absolute -top-16 md:-top-24 -right-[360px] md:-right-[330px]"
         xmlns="http://www.w3.org/2000/svg"
         width="530"
         height="129">

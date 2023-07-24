@@ -5,7 +5,7 @@ import image_profile_tablet from "../assets/image-profile-tablet.webp";
 function Header() {
   return (
     <div>
-      <div className="md:flex flex-row md:justify-between md:pt-8 ">
+      <div className="md:flex flex-row md:justify-between md:pt-6 ">
         <p className="flex justify-center text-2xl mt-8 pb-4 z-10 text-white md:inline-block md:mt-0 md:pb-0">
           adamkeyes
         </p>
@@ -69,7 +69,7 @@ function Header() {
         </div>
       </div>
       <svg
-        className="absolute top-32 right-44"
+        className="absolute top-20 right-44 md:-left-64"
         xmlns="http://www.w3.org/2000/svg"
         width="530"
         height="129">
@@ -95,6 +95,7 @@ function Header() {
           transform="translate(-766 -521)"
         />
       </svg>
+      <hr />
       <div className="md:relative">
         <img
           className="top flex mx-auto max-w-[174px] z-0 md:hidden"
