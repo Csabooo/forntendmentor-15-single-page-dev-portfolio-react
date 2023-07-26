@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
-      <div className="2xl:container text-center mx-auto pb-10 md:pb-20">
+      <div className="2xl:container text-center mx-auto pb-10 px-5 md:pb-20">
         <div className="md:max-w-[768px] lg:max-w-[1110px] mx-auto">
           <Header />
           <Main />
