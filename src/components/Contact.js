@@ -3,9 +3,11 @@ import Form from "./Form";
 
 function Contact() {
   return (
-    <div id="contact" className="relative pb-14 pt-10 bg-dark_grey xl:pt-20">
+    <div
+      id="contact"
+      className="relative pb-14 pt-10 px-5 bg-dark_grey xl:pt-20">
       <svg
-        className="absolute top-[354px] md:top-[450px] right-44 md:-left-[370px] xl:left-[70px] xl:top-[320px]"
+        className="absolute top-[360px] md:top-[450px] right-44 md:-left-[370px] xl:left-[70px] xl:top-[320px]"
         xmlns="http://www.w3.org/2000/svg"
         width="530"
         height="129">
