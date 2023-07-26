@@ -18,7 +18,7 @@ function Projects() {
     <div className="relative">
       <hr className="md:hidden block" />
       <svg
-        className="absolute -top-16 md:-top-24 -right-[360px] md:-right-[330px]"
+        className="absolute -top-16 -right-[360px] md:-top-24 md:-right-[330px] xl:-right-[350px] xl:-top-[250px]"
         xmlns="http://www.w3.org/2000/svg"
         width="530"
         height="129">
@@ -30,10 +30,10 @@ function Projects() {
           <ellipse cx="265" cy="89" rx="264.5" ry="39.5" />
         </g>
       </svg>
-      <div className="flex justify-between pt-20 pb-8">
+      <div className="flex justify-between pt-20 pb-8 md:pb-16 xl:pt-0 xl:pb-24">
         <h1 className="text-left ">Projects</h1>
         <a href="#contact" className="block px-0">
-          <p className="relative top-6 text-white tracking-[2.29px] decoration_underline">
+          <p className="relative text-white tracking-[2.29px] decoration_underline md:pt-4">
             CONTACT ME
           </p>
         </a>
@@ -46,7 +46,7 @@ function Projects() {
             src={project_1_small}
             alt="thumbnail-project-1-small"></img>
           <img
-            className="pb-6 hidden md:block"
+            className="pb-6 hidden md:block max-w-[342px] lg:max-w-[540px]"
             src={project_1_large}
             alt="thumbnail-project-1-large"></img>
           <div className="flex flex-col text-left">
@@ -79,7 +79,7 @@ function Projects() {
             src={project_2_small}
             alt="thumbnail-project-2-small"></img>
           <img
-            className="pb-6 hidden md:block"
+            className="pb-6 hidden md:block max-w-[342px] lg:max-w-[540px]"
             src={project_2_large}
             alt="thumbnail-project-2-large"></img>
           <div className="flex flex-col text-left">
@@ -112,7 +112,7 @@ function Projects() {
             src={project_3_small}
             alt="thumbnail-project-3-small"></img>
           <img
-            className="pb-6 hidden md:block"
+            className="pb-6 hidden md:block max-w-[342px] lg:max-w-[540px]"
             src={project_3_large}
             alt="thumbnail-project-3-large"></img>
           <div className="flex flex-col text-left">
@@ -146,7 +146,7 @@ function Projects() {
             src={project_4_small}
             alt="thumbnail-project-4-small"></img>
           <img
-            className="pb-6 hidden md:block"
+            className="pb-6 hidden md:block max-w-[342px] lg:max-w-[540px]"
             src={project_4_large}
             alt="thumbnail-project-4-large"></img>
           <div className="flex flex-col text-left">
@@ -180,7 +180,7 @@ function Projects() {
             src={project_5_small}
             alt="thumbnail-project-5-small"></img>
           <img
-            className="pb-6 hidden md:block"
+            className="pb-6 hidden md:block max-w-[342px] lg:max-w-[540px]"
             src={project_5_large}
             alt="thumbnail-project-5-large"></img>
           <div className="flex flex-col text-left">
@@ -214,7 +214,7 @@ function Projects() {
             src={project_6_small}
             alt="thumbnail-project-6-small"></img>
           <img
-            className="pb-6 hidden md:block"
+            className="pb-6 hidden md:block max-w-[342px] lg:max-w-[540px]"
             src={project_6_large}
             alt="thumbnail-project-6-large"></img>
           <div className="flex flex-col text-left">

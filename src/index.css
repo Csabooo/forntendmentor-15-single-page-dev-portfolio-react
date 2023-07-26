@@ -32,11 +32,11 @@
   }
 
   h1 {
-    @apply text-[40px] md:text-[72px] font-bold tracking-[-1.14px] leading-none;
+    @apply text-[40px] md:text-[72px] font-bold tracking-[-1.14px] leading-none xl:text-heading_XL z-20;
   }
 
   h2 {
-    @apply text-[32px] font-bold tracking-[-1px] text-white md:text-heading_L;
+    @apply text-[32px] pb-4 font-bold tracking-[-1px] text-white md:text-heading_L;
   }
 
   h3 {
@@ -64,7 +64,7 @@
   }
 
   p {
-    @apply text-base md:text-body_L text-grey pb-8;
+    @apply text-base md:text-body_L text-grey pb-8 md:pb-0;
   }
 
   span {
@@ -85,7 +85,7 @@
     @apply underline decoration-green decoration-2 underline-offset-[16px];
   }
   .decoration_underline_name {
-    @apply underline decoration-green decoration-2 underline-offset-[8px];
+    @apply underline decoration-green decoration-[4px] underline-offset-[8px];
   }
 
   .inputField {

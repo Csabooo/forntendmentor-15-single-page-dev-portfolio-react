@@ -3,35 +3,41 @@ import Form from "./Form";
 
 function Contact() {
   return (
-    <div id="contact" className="relative pb-14 pt-10 bg-dark_grey">
-      <div className="md:w-[447px] mx-auto">
-        <svg
-          className="absolute top-[354px] md:top-[450px] right-44 md:-left-[370px]"
-          xmlns="http://www.w3.org/2000/svg"
-          width="530"
-          height="129">
-          <g fill="none" fillRule="evenodd" stroke="#FFF" opacity=".25">
-            <ellipse cx="265" cy="40" rx="264.5" ry="39.5" />
-            <ellipse cx="265" cy="52" rx="264.5" ry="39.5" />
-            <ellipse cx="265" cy="65" rx="264.5" ry="39.5" />
-            <ellipse cx="265" cy="77" rx="264.5" ry="39.5" />
-            <ellipse cx="265" cy="89" rx="264.5" ry="39.5" />
-          </g>
-        </svg>
-        <h1 className="">Contact</h1>
-        <p>
-          I would love to hear about your project and how I could help. Please
-          fill in the form, and I’ll get back to you as soon as possible.
-        </p>
+    <div id="contact" className="relative pb-14 pt-10 bg-dark_grey xl:pt-20">
+      <svg
+        className="absolute top-[354px] md:top-[450px] right-44 md:-left-[370px] xl:left-[70px] xl:top-[320px]"
+        xmlns="http://www.w3.org/2000/svg"
+        width="530"
+        height="129">
+        <g fill="none" fillRule="evenodd" stroke="#FFF" opacity=".25">
+          <ellipse cx="265" cy="40" rx="264.5" ry="39.5" />
+          <ellipse cx="265" cy="52" rx="264.5" ry="39.5" />
+          <ellipse cx="265" cy="65" rx="264.5" ry="39.5" />
+          <ellipse cx="265" cy="77" rx="264.5" ry="39.5" />
+          <ellipse cx="265" cy="89" rx="264.5" ry="39.5" />
+        </g>
+      </svg>
+      <div className="md:w-[447px] xl:w-[1110px] mx-auto xl:text-left">
+        <div className="xl:grid grid-rows-1 xl:gap-x-40 grid-cols-2 xl:w-[1110px] xl:mx-auto xl:justify-center xl:pb-10">
+          <div className="xl:pt-3">
+            <h1>Contact</h1>
+            <p className="xl:pt-10">
+              I would love to hear about your project and how I could help.
+              Please fill in the form, and I’ll get back to you as soon as
+              possible.
+            </p>
+          </div>
+          <div>
+            {/*--------------------------- FORM -------------------------------------*/}
 
-        {/*--------------------------- FORM -------------------------------------*/}
+            <Form />
 
-        <Form />
-
-        {/*--------------------------- FORM -------------------------------------*/}
+            {/*--------------------------- FORM -------------------------------------*/}
+          </div>
+        </div>
       </div>
-      <div className="max-w-[708px] mx-auto">
-        <hr />
+      <div className="max-w-[708px] mx-auto xl:max-w-[1110px] xl:pb-10">
+        <hr className="" />
         <div className="md:flex flex-row items-center md:justify-between md: pt-8">
           <p className="text-2xl mt-8 pb-4 z-10 text-white md:flex md:m-0 md:p-0 md:text-[32px]">
             adamkeyes

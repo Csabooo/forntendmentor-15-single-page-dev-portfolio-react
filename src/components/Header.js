@@ -1,6 +1,7 @@
 import React from "react";
 import image_profile_mobile from "../assets/image-profile-mobile.webp";
 import image_profile_tablet from "../assets/image-profile-tablet.webp";
+import image_profile_desktop from "../assets/image-profile-desktop.webp";
 
 function Header() {
   return (
@@ -9,7 +10,7 @@ function Header() {
         <p className="flex justify-center text-2xl mt-8 pb-4 z-10 text-white md:inline-block md:mt-0 md:pb-0">
           adamkeyes
         </p>
-        <div className="relative flex justify-between w-40 mx-auto z-10 md:mx-0 md:right-4">
+        <div className="relative flex justify-between w-40 mx-auto z-10 md:mx-0 md:right-4 xl:right-12">
           {/* -------------------------------GITHUB---------------------------------------- */}
           <a type="button" href="https://www.github.com" className="">
             <svg
@@ -69,7 +70,7 @@ function Header() {
         </div>
       </div>
       <svg
-        className="absolute top-20 right-44 md:-left-64"
+        className="absolute top-20 right-44 md:-left-64 xl:left-48 xl:top-28"
         xmlns="http://www.w3.org/2000/svg"
         width="530"
         height="129">
@@ -82,7 +83,7 @@ function Header() {
         </g>
       </svg>
       <svg
-        className="absolute -right-16 top-64 md:top-[453px] md:z-20 md:right-[-62px]"
+        className="absolute -right-16 top-64 md:top-[448px] md:z-20 md:right-[-62px] xl:right-[843px] xl:top-[500px]"
         xmlns="http://www.w3.org/2000/svg"
         width="129"
         height="129">
@@ -95,7 +96,7 @@ function Header() {
           transform="translate(-766 -521)"
         />
       </svg>
-      <hr />
+
       <div className="md:relative">
         <img
           className="top flex mx-auto max-w-[174px] z-0 md:hidden"
@@ -103,18 +104,24 @@ function Header() {
           src={image_profile_mobile}
           alt="profile-mobile"
         />
-        <div className="hidden md:flex md:absolute -top-20 right-[-30px] md:w-[322px] z-0">
+        <div className="hidden md:flex xl:hidden md:absolute -top-20 right-[-30px] md:w-[322px] z-0">
           <img
             /* src={process.env.PUBLIC_URL + "/assets/image-profile-mobile.webp"} */
             src={image_profile_tablet}
             alt="profile-mobile"
           />
         </div>
+        <div className="hidden md:hidden xl:flex xl:absolute -top-20  xl:right-0 xl:w-[445px] ">
+          <img
+            className="max-w-[445px]"
+            /* src={process.env.PUBLIC_URL + "/assets/image-profile-mobile.webp"} */
+            src={image_profile_desktop}
+            alt="profile-desktop"
+          />
+        </div>
 
-        <div className="pt-72 md:hidden">
-          <h1 className="text-[40px] md:text-[72px] font-bold pt-9">
-            Nice to meet you!
-          </h1>
+        <div className="pt-72 md:hidden ">
+          <h1 className="font-bold pt-9">Nice to meet you!</h1>
           <h1>
             I’m{" "}
             <span className="text-white inline decoration_underline_name">
@@ -132,29 +139,29 @@ function Header() {
             </p>
           </a>
         </div>
-        <div className="hidden md:flex flex-col pt-4 text-left ">
-          <h1 className="text-[40px] md:flex md:text-[72px] font-bold pt-9 md:z-40 ">
-            Nice to <br />
-            meet you! I’m
-          </h1>
-          <h1 className="md:z-40">
-            <span className="text-white inline decoration_underline_name">
+        <div className="hidden md:flex flex-col md:pt-4 text-left xl:pt-20">
+          <h1 className="pt-9 md:z-40 xl:inline-block">
+            Nice to <br className="xl:hidden" />
+            meet you! <br className="md:hidden xl:inline-block" />
+            I’m <br className="md:flex xl:hidden" />
+            <span className="text-white inline decoration_underline_name ">
               Adam Keyes.
             </span>
           </h1>
-          <p className="text-grey pt-7 md:z-40 md:pt-14">
+
+          <p className="text-grey pt-7 md:z-40 md:pt-14 xl:pt-8">
             Based in the UK, I’m a front-end developer <br />
             passionate about building accessible web apps <br />
             that users love.
           </p>
           <a href="#contact">
-            <p className="pt-10 pb-20 tracking-[2.29px] text-white decoration_underline">
+            <p className="pt-10 pb-20 xl:pb-60 tracking-[2.29px] text-white decoration_underline">
               CONTACT ME
             </p>
           </a>
         </div>
       </div>
-      <hr className="pb-8" />
+      <hr className="pb-8 xl:pb-16" />
     </div>
   );
 }
