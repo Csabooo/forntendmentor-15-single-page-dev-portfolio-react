@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/forntendmentor-15-single-page-dev-portfolio-react/static/css/main.ceb47d81.css",
-    "main.js": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.0033d752.js",
+    "main.css": "/forntendmentor-15-single-page-dev-portfolio-react/static/css/main.01da3242.css",
+    "main.js": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.858079b1.js",
     "static/js/787.87bc2b69.chunk.js": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/787.87bc2b69.chunk.js",
     "static/media/thumbnail-project-4-large.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-4-large.751a4aca20e0604e0904.webp",
     "static/media/thumbnail-project-6-large.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-6-large.1bb664dcc9883bc285db.webp",
@@ -19,12 +19,12 @@
     "static/media/thumbnail-project-3-small.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-3-small.951fb216eb344873b374.webp",
     "static/media/thumbnail-project-5-small.webp": "/forntendmentor-15-single-page-dev-portfolio-react/static/media/thumbnail-project-5-small.e186a34a955415f41ecd.webp",
     "index.html": "/forntendmentor-15-single-page-dev-portfolio-react/index.html",
-    "main.ceb47d81.css.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/css/main.ceb47d81.css.map",
-    "main.0033d752.js.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.0033d752.js.map",
+    "main.01da3242.css.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/css/main.01da3242.css.map",
+    "main.858079b1.js.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/main.858079b1.js.map",
     "787.87bc2b69.chunk.js.map": "/forntendmentor-15-single-page-dev-portfolio-react/static/js/787.87bc2b69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceb47d81.css",
-    "static/js/main.0033d752.js"
+    "static/css/main.01da3242.css",
+    "static/js/main.858079b1.js"
   ]
 }
