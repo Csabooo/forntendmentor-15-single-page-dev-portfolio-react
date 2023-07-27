@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import project_1_small from "../assets/thumbnail-project-1-small.webp";
 import project_2_small from "../assets/thumbnail-project-2-small.webp";
 import project_3_small from "../assets/thumbnail-project-3-small.webp";
@@ -14,6 +14,12 @@ import project_5_large from "../assets/thumbnail-project-5-large.webp";
 import project_6_large from "../assets/thumbnail-project-6-large.webp";
 
 function Projects() {
+  const [isWindowVisible, setWindowVisible] = useState(false); // Új állapot változó
+
+  const buttonHandler = () => {
+    setWindowVisible((prevIsVisible) => !prevIsVisible); // Állapot váltása az ellenkezőjére
+  };
+
   return (
     <div className="relative">
       <hr className="md:hidden block" />
@@ -40,15 +46,37 @@ function Projects() {
       </div>
       {/*-----------------------DESIGN PORTFOILO----------------------*/}
       <div className="md:grid grid-cols-2 gap-8">
-        <div className="flex flex-col justify-center">
-          <img
-            className="pb-6 block md:hidden"
-            src={project_1_small}
-            alt="thumbnail-project-1-small"></img>
-          <img
-            className="pb-6 hidden md:block max-w-[342px] lg:max-w-[540px]"
-            src={project_1_large}
-            alt="thumbnail-project-1-large"></img>
+        <div>
+          <div
+            onClick={buttonHandler}
+            className="relative xl:flex xl:cursor-pointer justify-center items-center">
+            {isWindowVisible && ( // A gombok csak akkor jelennek meg, ha isWindowVisible értéke igaz (true)
+              <div className="absolute xl:flex w-full h-full bg-black opacity-80 z-20 justify-center items-center ">
+                <div className="flex flex-col justify-center items-center ">
+                  <a href="#" className="lg:px-0">
+                    <p className="inline  text-white tracking-[2.29px] decoration_underline ">
+                      VIEW PROJECT
+                    </p>
+                  </a>
+                  <a href="#" className="lg:pt-10 lg:px-0">
+                    <p className="inline pl-7 lg:pl-0 text-white tracking-[2.29px] decoration_underline">
+                      VIEW CODE
+                    </p>
+                  </a>
+                </div>
+              </div>
+            )}
+            <div className="flex flex-col justify-center">
+              <img
+                className="pb-6 block md:hidden"
+                src={project_1_small}
+                alt="thumbnail-project-1-small"></img>
+              <img
+                className="pb-6 hidden md:block max-w-[342px] lg:max-w-[540px]"
+                src={project_1_large}
+                alt="thumbnail-project-1-large"></img>
+            </div>
+          </div>
           <div className="flex flex-col text-left">
             <div>
               <h3 className="pb-2">DESIGN PORTFOLIO</h3>
@@ -57,7 +85,7 @@ function Projects() {
                 <span className="inline pl-5">CSS</span>
               </div>
 
-              <div className="pb-14">
+              <div className="pb-14 lg:hidden">
                 <button href="#">
                   <p className="inline text-white tracking-[2.29px] decoration_underline ">
                     VIEW PROJECT
