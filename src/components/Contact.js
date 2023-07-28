@@ -7,7 +7,7 @@ function Contact() {
       id="contact"
       className="relative pb-14 pt-10 px-5 bg-dark_grey xl:pt-20">
       <svg
-        className="absolute top-[345px] md:top-[450px] right-44 md:-left-[370px] xl:left-[70px] xl:top-[320px]"
+        className="absolute top-[345px] md:top-[450px] right-44 md:-left-[370px] xl:left-[70px] xl:top-[330px]"
         xmlns="http://www.w3.org/2000/svg"
         width="530"
         height="129">
@@ -20,7 +20,7 @@ function Contact() {
         </g>
       </svg>
       <div className="md:w-[447px] xl:w-[1110px] mx-auto xl:text-left">
-        <div className="xl:grid grid-rows-1 xl:gap-x-40 grid-cols-2 xl:w-[1110px] xl:mx-auto xl:justify-center xl:pb-10">
+        <div className="xl:grid grid-rows-1 xl:gap-x-40 grid-cols-2 xl:w-[1110px] xl:mx-auto xl:justify-center xl:pb-20">
           <div className="xl:pt-3">
             <h1>Contact</h1>
             <p className="xl:pt-10">

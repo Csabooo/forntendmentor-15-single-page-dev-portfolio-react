@@ -73,7 +73,7 @@ function Form() {
           placeholder="MESSAGE"
         />
 
-        <div className="text-right pt-6 pb-14">
+        <div className="text-right pt-10 pb-14">
           <button type="submit">
             <p className=" text-white tracking-[2.29px] decoration_underline">
               SEND MESSAGE

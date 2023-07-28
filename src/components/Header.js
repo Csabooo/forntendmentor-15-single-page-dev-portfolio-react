@@ -133,11 +133,14 @@ function Header() {
             passionate about building accessible web <br />
             apps that users love.
           </p>
-          <a href="#contact">
-            <p className="pt-10 pb-20 tracking-[2.29px] text-white decoration_underline">
+
+          <div className="pb-20">
+            <a
+              href="#contact"
+              className="inline tracking-[2.29px] text-white decoration_underline">
               CONTACT ME
-            </p>
-          </a>
+            </a>
+          </div>
         </div>
         <div className="hidden md:flex flex-col md:pt-4 text-left xl:pt-20">
           <h1 className="pt-9 md:z-40 xl:inline-block">
@@ -154,11 +157,13 @@ function Header() {
             passionate about building accessible web apps <br />
             that users love.
           </p>
-          <a href="#contact">
-            <p className="pt-10 pb-20 xl:pb-60 tracking-[2.29px] text-white decoration_underline">
+          <div className="pt-20 pb-60">
+            <a
+              href="#contact"
+              className="inline tracking-[2.29px] text-white decoration_underline">
               CONTACT ME
-            </p>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
       <hr className="pb-8 xl:pb-16" />
