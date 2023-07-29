@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "./Form";
+import Attribution from "./Attribution";
 
 function Contact() {
   return (
@@ -103,6 +104,7 @@ function Contact() {
             </a>
           </div>
         </div>
+        <Attribution />
       </div>
     </div>
   );

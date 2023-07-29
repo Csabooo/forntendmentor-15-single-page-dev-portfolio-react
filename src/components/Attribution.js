@@ -3,7 +3,7 @@ import React from "react";
 function Attribution() {
   return (
     <div>
-      <div className="my-8 text-center text-[14px]">
+      <div className="mt-24 text-center text-[14px]">
         <span>
           Challenge by
           <a
