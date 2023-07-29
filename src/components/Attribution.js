@@ -8,7 +8,7 @@ function Attribution() {
           Challenge by
           <a
             className="pr-0 underline decoration-green decoration-1 underline-offset-[5px]"
-            href="https://csabooo.github.io/forntendmentor-15-single-page-dev-portfolio-react/"
+            href="https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x"
             target="_blank"
             rel="noreferrer">
             {" "}
