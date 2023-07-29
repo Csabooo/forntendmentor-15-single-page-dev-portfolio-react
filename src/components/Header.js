@@ -70,7 +70,7 @@ function Header() {
         </div>
       </div>
       <svg
-        className="absolute top-20 right-44 md:-left-64 xl:left-48 xl:top-28"
+        className="absolute top-20 right-40 md:-left-64 lg:hidden"
         xmlns="http://www.w3.org/2000/svg"
         width="530"
         height="129">
@@ -82,22 +82,22 @@ function Header() {
           <ellipse cx="265" cy="89" rx="264.5" ry="39.5" />
         </g>
       </svg>
-      <svg
-        className="absolute -right-16 top-64 md:top-[448px] md:z-20 md:right-[-62px] xl:right-[843px] xl:top-[500px]"
-        xmlns="http://www.w3.org/2000/svg"
-        width="129"
-        height="129">
-        <circle
-          cx="830.5"
-          cy="585.5"
-          r="64"
-          fill="none"
-          stroke="#FFF"
-          transform="translate(-766 -521)"
-        />
-      </svg>
 
       <div className="md:relative">
+        <svg
+          className="absolute -right-16 top-64 md:top-[390px] md:right-[-85px] md:z-20 xl:right-[380px] xl:top-[440px]"
+          xmlns="http://www.w3.org/2000/svg"
+          width="129"
+          height="129">
+          <circle
+            cx="830.5"
+            cy="585.5"
+            r="64"
+            fill="none"
+            stroke="#FFF"
+            transform="translate(-766 -521)"
+          />
+        </svg>
         <img
           className="top flex mx-auto max-w-[174px] z-0 md:hidden"
           /* src={process.env.PUBLIC_URL + "/assets/image-profile-mobile.webp"} */
@@ -143,6 +143,19 @@ function Header() {
           </div>
         </div>
         <div className="hidden md:flex flex-col md:pt-4 text-left xl:pt-20">
+          <svg
+            className="hidden lg:flex absolute top-14 right-40 md:-left-64"
+            xmlns="http://www.w3.org/2000/svg"
+            width="530"
+            height="129">
+            <g fill="none" fillRule="evenodd" stroke="#FFF" opacity=".25">
+              <ellipse cx="265" cy="40" rx="264.5" ry="39.5" />
+              <ellipse cx="265" cy="52" rx="264.5" ry="39.5" />
+              <ellipse cx="265" cy="65" rx="264.5" ry="39.5" />
+              <ellipse cx="265" cy="77" rx="264.5" ry="39.5" />
+              <ellipse cx="265" cy="89" rx="264.5" ry="39.5" />
+            </g>
+          </svg>
           <h1 className="pt-9 md:z-40 xl:inline-block">
             Nice to <br className="xl:hidden" />
             meet you! <br className="md:hidden xl:inline-block" />
@@ -157,7 +170,7 @@ function Header() {
             passionate about building accessible web apps <br />
             that users love.
           </p>
-          <div className="pt-20 pb-60">
+          <div className="pt-20 pb-16 xl:pb-40">
             <a
               href="#contact"
               className="inline tracking-[2.29px] text-white decoration_underline">

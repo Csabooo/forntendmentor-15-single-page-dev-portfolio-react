@@ -6,21 +6,21 @@ function Contact() {
     <div
       id="contact"
       className="relative pb-14 pt-10 px-5 bg-dark_grey xl:pt-20">
-      <svg
-        className="absolute top-[345px] md:top-[450px] right-44 md:-left-[370px] xl:left-[70px] xl:top-[330px]"
-        xmlns="http://www.w3.org/2000/svg"
-        width="530"
-        height="129">
-        <g fill="none" fillRule="evenodd" stroke="#FFF" opacity=".25">
-          <ellipse cx="265" cy="40" rx="264.5" ry="39.5" />
-          <ellipse cx="265" cy="52" rx="264.5" ry="39.5" />
-          <ellipse cx="265" cy="65" rx="264.5" ry="39.5" />
-          <ellipse cx="265" cy="77" rx="264.5" ry="39.5" />
-          <ellipse cx="265" cy="89" rx="264.5" ry="39.5" />
-        </g>
-      </svg>
       <div className="md:w-[447px] xl:w-[1110px] mx-auto xl:text-left">
-        <div className="xl:grid grid-rows-1 xl:gap-x-40 grid-cols-2 xl:w-[1110px] xl:mx-auto xl:justify-center xl:pb-20">
+        <div className="xl:grid grid-rows-1 xl:gap-x-40 grid-cols-2 xl:w-[1110px] xl:mx-auto xl:justify-center xl:pb-20 relative">
+          <svg
+            className="absolute top-[300px] right-40 md:top-[390px] md:left-[-540px] xl:left-[-380px] xl:top-[270px]"
+            xmlns="http://www.w3.org/2000/svg"
+            width="530"
+            height="129">
+            <g fill="none" fillRule="evenodd" stroke="#FFF" opacity=".25">
+              <ellipse cx="265" cy="40" rx="264.5" ry="39.5" />
+              <ellipse cx="265" cy="52" rx="264.5" ry="39.5" />
+              <ellipse cx="265" cy="65" rx="264.5" ry="39.5" />
+              <ellipse cx="265" cy="77" rx="264.5" ry="39.5" />
+              <ellipse cx="265" cy="89" rx="264.5" ry="39.5" />
+            </g>
+          </svg>
           <div className="xl:pt-3">
             <h1>Contact</h1>
             <p className="xl:pt-10">
