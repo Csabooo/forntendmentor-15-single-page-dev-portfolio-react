@@ -12,6 +12,11 @@
   a {
     @apply md:pr-6;
   }
+
+  a:hover {
+    @apply text-green;
+  }
+
   a:hover p {
     @apply text-green;
   }
