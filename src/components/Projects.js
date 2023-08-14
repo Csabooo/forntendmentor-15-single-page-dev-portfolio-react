@@ -34,18 +34,11 @@ function Projects() {
     };
   }, []);
 
-  const buttonHandler = () => {
-    if (window.innerWidth >= 1280) {
-      // Csak az "xl" breakpoint felett változtassuk az ablak láthatóságát
-      setWindowVisible((prevIsVisible) => !prevIsVisible);
-    }
-  };
-
   return (
     <div className="relative">
       <hr className="md:hidden block" />
       <svg
-        className="absolute -top-16 -right-[360px] md:-top-24 md:-right-[330px] xl:-right-[350px] xl:-top-[250px]"
+        className="relative -top-16 -right-[400px] md:-top-24 md:-right-[900px] xl:-right-[900px] xl:-top-[250px]"
         xmlns="http://www.w3.org/2000/svg"
         width="530"
         height="129">
